@@ -1,0 +1,16 @@
+# Ignorar carpeta runs (resultados de entrenamiento)
+runs/
+
+# Ignorar cachés y archivos temporales Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos grandes que NO quieres subir (ejemplo: modelos preentrenados, backups grandes)
+# Puedes comentar esta línea si quieres subir pesos entrenados finales
+# *.pt
+# *.pth
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
